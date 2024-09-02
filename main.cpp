@@ -218,7 +218,7 @@ int main()
 		case 3:
 			cout << "Enter amount to withdrawn : ";
 			cin >> amount;
-			person.Withdraw(amount);
+			ans=person.Withdraw(amount);
 
 			if (ans)
 				cout << "Successfully withdrawn Amount"
